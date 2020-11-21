@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         grid.setNumColumns(width);
+        // USE THIS: https://mkyong.com/android/android-gridview-example/
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, idk);
         grid.setAdapter(adapter);
